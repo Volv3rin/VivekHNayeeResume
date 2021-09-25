@@ -41,23 +41,19 @@ const profileData = {
   skills: [
     {
       category: 'Operating Systems',
-      topics: ['TypeScript', 'JavaScript', 'C', 'C++']
+      topics: ['RHEL', 'Ubuntu', 'OpenBSD', 'FreeBSD', 'Mandriva', 'CentOS', 'DebianOS', 'Solaris 11', 'SCO Unixware', 'MacOSx Server', 'Windows Server – 2003, 2008/R2', 'VmwareESXi (4&5)', 'IBM - AIX'.]
     },
     {
-      category: 'Frameworks / Libraries',
-      topics: [
-        'ReactJS',
-        'Redux',
-        'NodeJS',
-        'Express',
-        'Angular',
-        'Bootstrap',
-        'antd'
-      ]
+      category: 'Tools',
+      topics: [ 'Docker', 'Kubernetes', 'Ansible','Terraform','Jenkins', 'Bamboo', 'Artifactory', 'ElasticSearch', 'LogStash', 'Kibana', 'Apache Tomcat', 'JBOSS', 'Varnish', 'EMC Networker', 'R1 soft & Symantec CPS','Zenoss', 'Solarwinds Monitoring tools', 'Nagios','WhatsUp Gold Monitoring tools', 'LiveVault backup tool', 'ThousandEyes Network Monitoring tool', 'CHEF utility', 'HPOM']
     },
+	{
+      category: 'LoadBalancers',
+      topics: ['F5', 'Nginx', 'Azure App Gateway']
+    }
     {
       category: 'Databases',
-      topics: ['MYSQL', 'PostgreSQL','CASSANDRA']
+      topics: ['MYSQL', 'PostgreSQL','Cassandra']
     }
   ], 
  projects: [
