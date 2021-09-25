@@ -98,8 +98,8 @@ const profileData = {
       ]
     },
     {
-      organization: 'Wipro',
-      title: `Project Engineer`,
+      organization: 'IGATE Global Solution Ltd',
+      title: `Senior Systems Engineer`,
       desc: `Project Engineer`,
       date: 'Aug 2018 - Apr 2020',
       details: [
