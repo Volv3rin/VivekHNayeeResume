@@ -59,8 +59,7 @@ const profileData = {
       category: 'Databases',
       topics: ['MYSQL', 'PostgreSQL','CASSANDRA']
     }
-  ],
-/* 
+  ], 
  projects: [
     {
       title: 'Restaurant Review',
@@ -84,7 +83,6 @@ const profileData = {
       <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
     }
   ],
-*/
   experiences: [
     {
       organization: 'Jio Platforms Ltd',
