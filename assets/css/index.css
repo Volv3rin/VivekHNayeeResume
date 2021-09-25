@@ -179,19 +179,19 @@ strong {
   border-radius: 20px;
 }
 
-/* Project */
+/* Project 
 .project-title {
   padding-right: 5px;
 }
 
 .project-desc {
   /* margin-top: 8px; */
-  color: #444;
+ /*  color: #444;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
   font-style: italic;
-}
-
+} */ 
+*/ 
 /* Skills */
 .cat-skill-item {
   padding: 0.2rem 0 !important;
