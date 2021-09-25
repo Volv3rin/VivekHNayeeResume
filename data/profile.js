@@ -86,8 +86,8 @@ const profileData = {
   experiences: [
     {
       organization: 'Jio Platforms Ltd',
-      title: `Manager - IT Infrastructure Support`,`Deputy Manager - IT Infrastructure Support`, 
-      date: 'JAN 2019 - Present','OCT 2015 - DEC 2018'
+      title: `Manager - IT Infrastructure Support`, 
+      date: 'JAN 2019 - Present',
 	  //title: `Deputy Manager - IT Infrastructure Support`,
       //date: 'OCT 2015 - DEC 2018',
       details: [
