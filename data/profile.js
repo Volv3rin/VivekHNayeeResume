@@ -20,22 +20,22 @@ const profileData = {
   ],
   education: [
     {
-      alma: `G.H Patel College of Engineering, Sardar Patel University`,
-      duration: `2006 - 2010`,
-      std: `B.E. Information Technology`,
-      score: `5.4 CGPA`
+      alma: 'G.H Patel College of Engineering, Sardar Patel University',
+      duration: '2006 - 2010',
+      std: 'B.E. Information Technology',
+      score: '5.4 CGPA'
     },
     {
-      alma: `St Mary’s School, GHSEB Board, Rajkot`,
-      duration: `2004 - 2006`,
-      std: `Class XI - XII`,
-      score: `65.40%`
+      alma: 'St Mary’s School, GHSEB Board, Rajkot',
+      duration: '2004 - 2006',
+      std: 'Class XI - XII',
+      score: '65.40%'
     },
     {
-      alma: `St Mary’s School, GHSEB Board, Rajkot`,
-      duration: `1992 - 2004`,
-      std: `Class X`,
-      score: `77.57%`
+      alma: 'St Mary’s School, GHSEB Board, Rajkot',
+      duration: '1992 - 2004',
+      std: 'Class X',
+      score: '77.57%'
     }
   ],
   skills: [
