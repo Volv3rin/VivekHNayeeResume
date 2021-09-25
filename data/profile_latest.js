@@ -137,24 +137,24 @@ const profileData = {
     {
       desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
+      date: 'AUG 2011 - AUG 2014',
     },
 	{
       desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`,
-     /* (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'May - Nov 2018' */
+     (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      date: 'AUG 2011 - AUG 2014', 
     },
 	{
       desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
+     date: 'June 2014',
     },
     //{
     //  desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
     //  and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
     //   (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
     //   https://goo.gl/X3HEdR</a>)`,
-    //  date: 'Jan - Mar 2017'
+    //  date: 'AUG 2011 - AUG 2014'
     //}
   ],
   events: []
