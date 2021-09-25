@@ -2,7 +2,7 @@
 
 ### About
 It is my simple resume made with HTML, CSS, JS using JSON data.   
-Initially, the project was written with NodeJS architecture. [View Old Project](https://github.com/methusael13/resume-builder)
+//Initially, the project was written with NodeJS architecture. [View Old Project](https://github.com/methusael13/resume-builder)
 
 HTML is used for making the initial block structure of the page with some simple data, CSS is used for giving some style to the page, and JS is used to create small UI components dynamically and fill the data into the page. All the data about details related to the user is stored as a JSON object in a JS file.
 
@@ -20,6 +20,7 @@ _( Make sure you have a GitHub account )_
 6. Visit `https://<your GitHub username>.github.io/resume` in your browser.  
 7. Additionally you can print/save the page as a PDF.  
 
+<!--
 #### Using local development
 If you are a web developer like me and want to run this on your local system then follow the instructions mentioned below.  
 The project needs to be hosted using any Web-Server like `apache`, `tomcat`, `http-server` or `SimpleHTTPServer` etc. I use `http-server` as it is very simple to use. Install `http-server` from [here](https://www.npmjs.com/package/http-server) (NodeJS and npm need to installed first to run it).
@@ -59,3 +60,4 @@ If you want to contribute, just give me a PR.
 
 
 
+--> 
