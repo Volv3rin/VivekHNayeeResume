@@ -41,7 +41,7 @@ const profileData = {
   skills: [
     {
       category: 'Operating Systems',
-      topics: ['RHEL', 'Ubuntu', 'OpenBSD', 'FreeBSD', 'Mandriva', 'CentOS', 'DebianOS', 'Solaris 11', 'SCO Unixware', 'MacOSx Server', 'Windows Server – 2003, 2008/R2', 'VmwareESXi (4&5)', 'IBM - AIX'.]
+      topics: ['RHEL', 'Ubuntu', 'OpenBSD', 'FreeBSD', 'Mandriva', 'CentOS', 'DebianOS', 'Solaris 11', 'SCO Unixware', 'MacOSx Server', 'Windows Server – 2003, 2008/R2', 'VmwareESXi (4&5)', 'IBM - AIX'],
     },
     {
       category: 'Tools',
