@@ -1,6 +1,6 @@
 const profileData = {
   title: 'Resume',
-  name: 'Vivek Nayee',
+  name: 'Vivek H Nayee',
   sub_title: 'IT Specialist',
   logoURL: 'assets/images/dp.jpg',
   about: {
@@ -85,14 +85,21 @@ const profileData = {
   ],
   experiences: [
     {
-      organization: 'Mobile Premier League',
-      title: `Software Development Engineer 1`,
-      date: 'Apr 2020 - Present',
+      organization: 'Jio Platforms Ltd',
+      title: `Manager - IT Infrastructure Support`,
+      date: 'JAN 2019 - Present',
       details: [
-        `Working on the development of internal tools to provide ease in the work of the operation team with tech stack of
-        <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong>
-        with protobuf for the backend.`,
-        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`
+        `Working as Manager, my profile involved me to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform]. 
+		Project scheduling and tracking with Vendors and different internal support teams. 
+		Involved in providing leadership and technical guidance to program management bodies and SME’s.`
+      ]
+	  title: `Deputy Manager - IT Infrastructure Support`,
+      date: 'OCT 2015 - DEC 2018',
+      details: [
+        `As a Deputy Manager - IT Infrastructure, I was involved and responsible for infrastructure design specifications and implementations for in house project <strong>Identity Management</strong>.
+		Successfully implemented Multi Site DR sme to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform]. 
+		Project scheduling and tracking with Vendors and different internal support teams. 
+		Involved in providing leadership and technical guidance to program management bodies and SME’s.`
       ]
     },
     {
@@ -138,17 +145,27 @@ const profileData = {
   ],
   certifications: [
     {
-      desc: `<strong>Mobile Web Specialist Nanodegree</strong> by <strong>Udacity</strong>.
-      (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'May - Nov 2018'
+      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.
+      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      //date: 'May - Nov 2018'
     },
-    {
-      desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
-      and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
-       (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
-       https://goo.gl/X3HEdR</a>)`,
-      date: 'Jan - Mar 2017'
-    }
+	{
+      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.
+      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      //date: 'May - Nov 2018'
+    },
+	{
+      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>.
+      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      //date: 'May - Nov 2018'
+    },
+    //{
+    //  desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
+    //  and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
+    //   (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
+    //   https://goo.gl/X3HEdR</a>)`,
+    //  date: 'Jan - Mar 2017'
+    //}
   ],
   events: []
 };
