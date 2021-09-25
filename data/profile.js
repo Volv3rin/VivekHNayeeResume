@@ -97,7 +97,7 @@ const profileData = {
       date: 'OCT 2015 - DEC 2018',
       details: [
         `As a Deputy Manager - IT Infrastructure, I was involved and responsible for infrastructure design specifications and implementations for in house project <strong>Identity Management</strong>.
-		Successfully implemented Multi Site DR sme to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform]. 
+		Successfully implemented Multi Site DR sme to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform].
 		Project scheduling and tracking with Vendors and different internal support teams. 
 		Involved in providing leadership and technical guidance to program management bodies and SME’s.`
       ]
