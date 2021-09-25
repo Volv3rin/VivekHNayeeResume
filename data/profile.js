@@ -1,161 +1,103 @@
 const profileData = {
-  title: 'Resume',
-  name: 'Vivek H Nayee',
-  sub_title: 'IT Specialist',
-  logoURL: 'assets/images/dp.jpg',
+  title: 'Profile',
+  name: 'John Doe',
+  sub_title: 'Ethical Hacker',
   about: {
-    intro: `•	As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains.`,
+    intro: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
     contact: {
-      email: 'viveknayee@outlook.com',
-      phone: '+91-9727216292',
-      address: 'Navi Mumbai, IN'
+      email: 'asdf@jkl.com',
+      phone: '+1-1001010010',
+      address: 'New York, USA'
     }
   },
   links: [
-    //{ title: 'Codepen', src: 'https://codepen.io/imvpn22' },
-    //{ title: 'Github', src: 'https://github.com/imvpn22' },
-    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/vivvekhnayee/' }
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
+    { title: 'Google', src: 'https://www.google.com/' },
+    { title: 'Facebook', src: 'https://www.facebook.com/' }
   ],
   education: [
     {
-      alma: 'G.H Patel College of Engineering, Sardar Patel University',
-      duration: '2006 - 2010',
-      std: 'B.E. Information Technology',
-      score: '5.4 CGPA'
+      alma: 'Lorem Ipsum',
+      duration: '1978 - 1980',
+      std: 'MSC',
+      score: '99.99%'
     },
     {
-      alma: 'St Mary’s School, GHSEB Board, Rajkot',
-      duration: '2004 - 2006',
-      std: 'Class XI - XII',
-      score: '65.40%'
-    },
-    {
-      alma: 'St Mary’s School, GHSEB Board, Rajkot',
-      duration: '1992 - 2004',
-      std: 'Class X ',
-      score: '77.57%'
+      alma: 'Dotor Sit Amet',
+      duration: '1975 - 1977',
+      std: 'SomeThing',
+      score: '99.99%'
     }
   ],
   skills: [
     {
-      category: 'Operating Systems',
-      topics: ['TypeScript', 'JavaScript', 'C', 'C++']
+      category: 'Lorem Ipsum',
+      topics: ['Dolor', 'Sit', 'Amet', 'Consectetur', 'Adipiscing', 'Elit']
     },
     {
-      category: 'Frameworks / Libraries',
+      category: 'Sed / Eiusmod',
       topics: [
-        'ReactJS',
-        'Redux',
-        'NodeJS',
-        'Express',
-        'Angular',
-        'Bootstrap',
-        'antd'
+        'Tempor',
+        'Incididunt',
+        'Labore',
+        'Dolore',
+        'Magna',
+        'Aliqua',
+        'Labore'
       ]
     },
     {
-      category: 'Databases',
-      topics: ['MongoDB', 'PostgreSQL']
+      category: 'Minim Veniam',
+      topics: ['Quis', 'Nostrud', 'Exercitation', 'Ullamco']
     }
   ],
   projects: [
     {
-      title: 'Restaurant Review',
-      duration: 'June - Nov 2018',
-      link: 'https://github.com/imvpn22/restaurant-review-pwa',
-      desc: `A web-app to list, view and add reviews of restaurents.
-      The app includes filtering based on location, cuisine and rating.
-      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-      with Progressive Web-Application standards including full-responsiveness,
-      offline support and improved accessibility.`
+      title: 'Lorem Ipsum',
+      duration: 'Mar - Nov 1885',
+      link: 'https://github.com/',
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
     },
     {
-      title: 'WhiteBoard',
-      duration: 'Jun - Aug 2017',
-      link: 'https://github.com/imvpn22/whiteboard',
-      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-      The app includes a real-time messaging and sketching platform for collaboration with Peers.
-      It also has features to create groups(teams) and add/remove members.
-      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+      title: 'Lorem Ipsum',
+      duration: 'Apr - Jul 1917',
+      link: 'https://github.com/',
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`
     }
   ],
   experiences: [
     {
-      organization: 'Jio Platforms Ltd',
-      title: `Manager - IT Infrastructure Support`,
-      date: 'JAN 2019 - Present',
+      organization: 'World War 2',
+      title: `General`,
+      date: '1941 - 1945',
       details: [
-        `Working as Manager, my profile involved me to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform].Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`
-      ]
-	},
-    {
-      organization: 'IGATE Global Solution Ltd',
-      title: `Senior Systems Engineer`,
-      desc: `Project Engineer`,
-      date: 'Aug 2018 - Apr 2020',
-      details: [
-        `Contributed in the development of a <strong>collaborative online
-        blueprint editor</strong> by translating the design mockups into reusable UI components
-        with industry-standard UX patterns using <strong>Angular</strong> with <strong>SCSS</strong>,
-        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by
-        creating services to integrate backend REST-APIs.`,
-        `Resolved UI/UX issues by refactoring React components and re-structuring CSS/SCSS of an internal project with codebase of ReactJS-Redux.`
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
       ]
     },
     {
-      organization: 'Venuemonk',
-      title: 'Full-Stack Developer Intern',
-      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
-      <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan 2018 - Apr 2018',
+      organization: 'World War 1',
+      title: `Soldier`,
+      date: '1914 - 1918',
       details: [
-        `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate
-        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and
-        <strong>Node.js-Express, MongoDB</strong> backend.`
-      ]
-    },
-    {
-      organization: 'Hasura',
-      title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
-      <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
-      date: 'Jun 2017 - Aug 2017',
-      details: [
-        `Created a web-app using <strong>Node.js-Express</strong> with <strong>EJS</strong> server-side-templating on
-        <strong>Hasura's BaaS platform</strong> with features of group-chat and a
-        sketch board for real-time collaboration with peers. The work was more focused
-        towards <strong>using auth and data APIs</strong> offered by the platform, deploying the app,
-        testing and reporting the bugs in it.`
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
       ]
     }
   ],
   certifications: [
     {
-      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.
-      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+      date: 'Aug 1917'
     },
-	{
-      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.
-      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
-    },
-	{
-      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>.
-      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
-    },
-    //{
-    //  desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
-    //  and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
-    //   (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
-    //   https://goo.gl/X3HEdR</a>)`,
-    //  date: 'Jan - Mar 2017'
-    //}
+    {
+      desc: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+      date: 'Jul 1945'
+    }
   ],
   events: []
 };
