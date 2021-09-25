@@ -1,5 +1,5 @@
 const profileData = {
-  title: 'Resume',
+  title: 'Profile',
   name: 'Vivek H Nayee',
   sub_title: 'IT Specialist',
   logoURL: 'assets/images/dp.jpg',
