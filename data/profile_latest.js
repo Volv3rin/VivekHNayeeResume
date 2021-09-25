@@ -135,17 +135,17 @@ const profileData = {
   ],
   certifications: [
     {
-      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`
+      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       //date: 'May - Nov 2018'
     },
 	{
-      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`
+      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`,
      /* (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       date: 'May - Nov 2018' */
     },
 	{
-      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>`
+      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       //date: 'May - Nov 2018'
     },
