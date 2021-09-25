@@ -136,11 +136,11 @@ const profileData = {
   certifications: [
     {
       desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`,
-      date: 'AUG 2011 - AUG 2014',
+      date: 'AUG 2011 - 2014',
     },
 	{
       desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`,
-      date: 'AUG 2011 - AUG 2014',
+      date: 'AUG 2011 - 2014',
     },
 	{
       desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>.`,
