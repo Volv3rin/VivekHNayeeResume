@@ -50,7 +50,7 @@ const profileData = {
 	{
       category: 'LoadBalancers',
       topics: ['F5', 'Nginx', 'Azure App Gateway']
-    }
+    },
     {
       category: 'Databases',
       topics: ['MYSQL', 'PostgreSQL','Cassandra']
