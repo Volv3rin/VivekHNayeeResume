@@ -89,16 +89,18 @@ const profileData = {
       title: `Manager - IT Infrastructure Support`,
       date: 'JAN 2019 - Present',
       details: [
-        `Working as Manager, my profile involved me to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform].Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`
-      ],
+        `Working as Manager, my profile involved me to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform].`
+		`Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`
+      ]
 	//},
 	//{
     //  organization: 'Jio Platforms Ltd',
-	  title: `Deputy Manager - IT Infrastructure Support`,
+	  desc: `Deputy Manager - IT Infrastructure Support`,
       date: 'OCT 2015 - DEC 2018',
       details: [
-        `As a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of <strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer). Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC architecture.`
-      ],
+        `As a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of <strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`
+		`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC architecture.`
+      ]
 	},
     {
       organization: 'IGATE Global Solution Ltd',
