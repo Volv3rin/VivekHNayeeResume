@@ -91,8 +91,8 @@ const profileData = {
       details: [
         `Working as Manager, my profile involved me to provide effective solutions for network and infrastructure resource requirements while migrating to different technologies and cloud [Azure and Google Cloud Platform].Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`
       ]
-	},
-	{
+	//},
+	//{
     //  organization: 'Jio Platforms Ltd',
 	  title: `Deputy Manager - IT Infrastructure Support`,
       date: 'OCT 2015 - DEC 2018',
