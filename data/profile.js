@@ -93,7 +93,7 @@ const profileData = {
       details: [
 	    `Started working for Jio as a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of <strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`,
 		`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC architecture.`,
-        `Promoted to Manager [JAN 2019-Present], my profile involved in poroviding effective solutions for network and infrastructure resource requirements while integrating with in house other business applications and also for cloud [Azure and Google Cloud Platform].`,
+        `Promoted to Manager [JAN 2019-Present], my profile involved in providing effective solutions for network and infrastructure resource requirements while integrating with in house other business applications and also for cloud [Azure and Google Cloud Platform].`,
 		`Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`,
     //  ]
 	//},
@@ -117,29 +117,25 @@ const profileData = {
       ]
     },
     {
-      organization: 'Venuemonk',
-      title: 'Full-Stack Developer Intern',
-      desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
-      <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
-      date: 'Jan 2018 - Apr 2018',
+      organization: 'eClinicalWorks India Pvt Ltd',
+      title: 'Systems Administrator',
+    //  desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
+    //  <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
+      date: 'MAY 2013 - SEPT 2014',
       details: [
-        `Designed and developed a <strong>Venue Onboarding platform</strong> to streamline and automate
-        the onboarding process of partner venues using <strong>React.js-Redux</strong> frontend and
-        <strong>Node.js-Express, MongoDB</strong> backend.`
+        `Working as a Systems Administrator, I got experience to manage remote Datacenter operations, Production systems health checks, migration of Datacenters on Hypervisors and in cloud, along with exposure to Firewalls and Network Monitoring and Security aspects`, 
+		`Successfully implemented Datacenter Monitoring solutions which were useful for Trend Analysis, RCA and various other reports for optimized Datacenter operations.`,
+		`Exposure to Virtualization and Clustering with VCenter and VMotion for migration, HA, clustering and management of ESX servers`
       ]
     },
     {
-      organization: 'Hasura',
-      title: 'Product Development Intern (Remote)',
-      desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
-      <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
-      date: 'Jun 2017 - Aug 2017',
+      organization: 'MindArray Systems Pvt Ltd',
+      title: 'System Administrator',
+    //  desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
+    //  <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
+      date: 'MAY 2011 - FEB 2013',
       details: [
-        `Created a web-app using <strong>Node.js-Express</strong> with <strong>EJS</strong> server-side-templating on
-        <strong>Hasura's BaaS platform</strong> with features of group-chat and a
-        sketch board for real-time collaboration with peers. The work was more focused
-        towards <strong>using auth and data APIs</strong> offered by the platform, deploying the app,
-        testing and reporting the bugs in it.`
+        `Start of career by managing the local area network for this firm, learning all the Network and Servers basics, email clients configurations and set up VMware systems on blade servers, installation and configuration of AIX box for the Network performance software implementation (in house product), along with managing testing and Staging  environment readiness, performance tuning and health reports via various tools`
       ]
     }
   ],
