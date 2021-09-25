@@ -100,8 +100,8 @@ const profileData = {
 	//  desc: `Deputy Manager - IT Infrastructure Support`,
     //  date: 'OCT 2015 - DEC 2018',
     //  details: [
-        `Appointed as a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of <strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`,
-		`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC architecture.`
+    //    `Appointed as a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of //<strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`,
+	//	`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC //architecture.`
       ]
 	},
     {
