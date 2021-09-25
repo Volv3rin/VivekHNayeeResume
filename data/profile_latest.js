@@ -4,7 +4,7 @@ const profileData = {
   sub_title: 'IT Specialist',
   logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains.`,
+    intro: `As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains which includes IT Software Monitoring, Healthcare, IT services, Telecom sector.`,
     contact: {
       email: 'viveknayee@outlook.com',
       phone: '+91-9727216292',
@@ -139,17 +139,17 @@ const profileData = {
   ],
   certifications: [
     {
-      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.
+      desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       //date: 'May - Nov 2018'
     },
 	{
-      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.
-      //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      //date: 'May - Nov 2018'
+      desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`
+     /* (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      date: 'May - Nov 2018' */
     },
 	{
-      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>.
+      desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>`.
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
       //date: 'May - Nov 2018'
     },
