@@ -107,15 +107,11 @@ const profileData = {
     {
       organization: 'IGATE Global Solution Ltd',
       title: `Senior Systems Engineer`,
-      desc: `Project Engineer`,
-      date: 'Aug 2018 - Apr 2020',
+     // desc: `Project Engineer`,
+      date: 'OCT 2014 - SEPT 2015',
       details: [
-        `Contributed in the development of a <strong>collaborative online
-        blueprint editor</strong> by translating the design mockups into reusable UI components
-        with industry-standard UX patterns using <strong>Angular</strong> with <strong>SCSS</strong>,
-        <strong>NgRx</strong> and <strong>Angular-Material</strong> and adding actions to those by
-        creating services to integrate backend REST-APIs.`,
-        `Resolved UI/UX issues by refactoring React components and re-structuring CSS/SCSS of an internal project with codebase of ReactJS-Redux.`
+        `As a Senior Systems engineer my profile was to work for multiple AIX/Linux projects.`, 
+		`Got a good exposure to change management systems, planned firmware upgrades, OS upgrades, Database patching along with mentoring junior team members.`
       ]
     },
     {
