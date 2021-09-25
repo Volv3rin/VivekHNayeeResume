@@ -4,45 +4,43 @@ const profileData = {
   sub_title: 'IT Specialist',
   logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+    intro: `•	As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains.`,
     contact: {
-      email: 'imvpn22@gmail.com',
-      phone: '+91-9919716378',
-      address: 'Bangalore, IN'
+      email: 'viveknayee@outlook.com',
+      phone: '+91-9727216292',
+      address: 'Navi Mumbai, IN'
     }
   },
   links: [
     //{ title: 'Codepen', src: 'https://codepen.io/imvpn22' },
     //{ title: 'Github', src: 'https://github.com/imvpn22' },
-    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/imvpn22' }
+    { title: 'LinkedIn', src: 'https://www.linkedin.com/in/vivvekhnayee/' }
     // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
     // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
   education: [
     {
-      alma: 'FET, GKV, Haridwar',
-      duration: '2014 - 2018',
-      std: 'B.Tech. (Computer Science & Engineering)',
-      score: '71.00%'
+      alma: 'G.H Patel College of Engineering, Sardar Patel University',
+      duration: '2006 - 2010',
+      std: 'B.E. Information Technology',
+      score: '5.4 CGPA'
     },
     {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class XI - XII (PCM)',
-      score: '89.80%'
+      alma: 'St Mary’s School, GHSEB Board, Rajkot',
+      duration: '2004 - 2006',
+      std: 'Class XI - XII',
+      score: '65.40%'
     },
     {
-      alma: 'Jwala Devi SVMIC, Prayagraj',
-      duration: '2011 - 2013',
-      std: 'Class IX - X (PCM)',
-      score: '73.33%'
+      alma: 'St Mary’s School, GHSEB Board, Rajkot',
+      duration: '1992 - 2004',
+      std: 'Class X ',
+      score: '77.57%'
     }
   ],
   skills: [
     {
-      category: 'Programming Languages',
+      category: 'Operating Systems',
       topics: ['TypeScript', 'JavaScript', 'C', 'C++']
     },
     {
