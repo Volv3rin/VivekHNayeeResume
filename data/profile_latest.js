@@ -137,17 +137,17 @@ const profileData = {
     {
       desc: `<strong>RedHat Certified Systems Administrator</strong> - <strong>RHCSA</strong>.`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'AUG 2011 - AUG 2014'
+      date: 'AUG 2011 - AUG 2014',
     },
 	{
       desc: `<strong>RedHat Certified Engineer</strong> - <strong>RHCE</strong>.`,
-     (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-      date: 'AUG 2011 - AUG 2014'
+    // (<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
+      date: 'AUG 2011 - AUG 2014',
     },
 	{
       desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>`,
       //(<a target='_blank' rel='noreferrer' href='https://confirm.udacity.com/RLMHXAWZ'>https://goo.gl/RGRzVn</a>)`,
-     date: 'June 2014'
+     date: 'June 2014',
     },
     //{
     //  desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
