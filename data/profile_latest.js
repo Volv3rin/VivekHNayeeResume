@@ -45,16 +45,16 @@ const profileData = {
     },
     {
       category: 'Tools',
-      topics: [ 'Docker', 'Kubernetes', 'Ansible','Terraform','Jenkins', 'Bamboo', 'Artifactory', 'ElasticSearch', 'LogStash', 'Kibana', 'JBOSS', 'Varnish', 'R1 soft & Symantec CPS','Zenoss', 'Solarwinds/Whatsup Gold /ThousandEyes Monitoring tools', 'Nagios', 'LiveVault backup tool', 'CHEF utility', 'HPOM','F5', 'Nginx', 'Azure App Gateway']
+      topics: [ 'Docker', 'Kubernetes', 'Ansible','Terraform','Jenkins', 'Bamboo', 'Artifactory', 'ElasticSearch', 'LogStash', 'Kibana', 'JBOSS', 'Varnish', 'EMC Networker', 'R1 soft & Symantec CPS','Zenoss', 'Solarwinds/WhatsUp Gold/ThousandEyes Monitoring tools', 'Nagios', 'LiveVault backup tool', 'CHEF utility', 'HPOM','F5', 'Nginx', 'Azure App Gateway']
     },
 	{
       category: 'LoadBalancers',
       topics: ['F5', 'Nginx', 'Azure App Gateway']
     },
-    {
+   /* {
       category: 'Databases',
       topics: ['MYSQL', 'PostgreSQL','Cassandra']
-    }  
+    } */  
   ], 
  /* projects: [
     {
