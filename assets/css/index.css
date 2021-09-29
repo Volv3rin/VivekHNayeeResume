@@ -330,11 +330,11 @@ strong {
     font-weight: 600;
   }
 
-  .info-section .info-left {
+  .info-section .info-top {
     border: none;
   }
 
-  .info-section .info-right {
+  .info-section .info-bottom {
     padding: 0;
   }
 
