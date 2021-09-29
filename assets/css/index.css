@@ -85,13 +85,13 @@ strong {
   flex-wrap: wrap;
 }
 
-.info-top {
+.info-left {
   flex: 1;
   border-right: 2px solid #f5f5f5;
   padding-right: 1rem;
 }
 
-.info-bottom {
+.info-right {
   flex: 3;
   padding-left: 1rem;
 }
