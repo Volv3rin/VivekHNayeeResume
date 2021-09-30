@@ -76,7 +76,7 @@ const setEducation = education => {
   });
 };
 
-/* const setProjects = projects => { 
+const setProjects = projects => { 
   const ul = document.querySelector('#projectList');
   projects.forEach(project => {
     const li = document.createElement('li');
@@ -117,8 +117,8 @@ const setEducation = education => {
     li.appendChild(projectDesc);
 
     ul.appendChild(li);
-  });
-}; */ 
+  }); 
+};  
 
 const setSkills = skills => {
   const skillList = document.querySelector('#skillList');
