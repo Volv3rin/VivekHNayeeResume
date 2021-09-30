@@ -2,9 +2,9 @@ const profileData = {
   title: 'Profile',
   name: 'Vivek H Nayee',
   sub_title: 'IT Infrastructure Manager',
+  intro: `As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains which includes IT Software Monitoring, Healthcare, IT services, Telecom sector`,
   logoURL: 'assets/images/dp.jpg',
   about: {
-    intro: `As an IT Professional, I am having more than 10years of experience in IT Infrastructure Design and Implementation and have worked on various projects in multiple domains which includes IT Software Monitoring, Healthcare, IT services, Telecom sector`,
     contact: {
       email: 'viveknayee@outlook.com',
       phone: '+91-9727216292',
