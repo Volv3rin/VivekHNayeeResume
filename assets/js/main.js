@@ -7,10 +7,10 @@ const setTitle = data => {
   document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
-    .querySelector('#contactEmail')
+	.querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
-  document.querySelector('#contactAddress').innerHTML = data.about.contact.address; 
+  /* document.querySelector('#contactAddress').innerHTML = data.about.contact.address; */ 
 };
 
 const setLinks = links => {
