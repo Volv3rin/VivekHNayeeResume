@@ -4,13 +4,22 @@ const setTitle = data => {
   document.title = `${data.title} | ${data.name}`;
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+<<<<<<< HEAD
   //document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+=======
+  // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+>>>>>>> parent of ce6ea20 (Update main.js)
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
 	.querySelector('#contactEmail')
     .setAttribute('href', `mailto:${data.about.contact.email}`);
   document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
+<<<<<<< HEAD
   /* document.querySelector('#contactAddress').innerHTML = data.about.contact.address; */ 
+=======
+  /* document.querySelector('#contactAddress').innerHTML =
+    data.about.contact.address; */
+>>>>>>> parent of ce6ea20 (Update main.js)
 };
 
 const setLinks = links => {
