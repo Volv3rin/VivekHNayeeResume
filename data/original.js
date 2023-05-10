@@ -14,9 +14,9 @@ const profileData = {
     }
   },
   links: [
-    { title: "Codepen", src: "https://codepen.io/imvpn22" },
-    { title: "Github", src: "https://github.com/imvpn22" },
-    { title: "LinkedIn", src: "https://www.linkedin.com/in/imvpn22" }
+    //{ title: "Codepen", src: "https://codepen.io/imvpn22" },
+    //{ title: "Github", src: "https://github.com/imvpn22" },
+    //{ title: "LinkedIn", src: "https://www.linkedin.com/in/imvpn22" }
     // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
     // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
