@@ -12,11 +12,11 @@ const profileData = {
     }
   },
   links: [
-    //{ title: 'Codepen', src: 'https://codepen.io/imvpn22' },
-    //{ title: 'Github', src: 'https://github.com/imvpn22' },
+    { title: 'Codepen', src: 'https://codepen.io/imvpn22' },
+    { title: 'Github', src: 'https://github.com/imvpn22' },
     { title: 'LinkedIn', src: 'https://www.linkedin.com/in/vivvekhnayee/' }
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
+    { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
+    { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
   education: [
     {
@@ -51,12 +51,12 @@ const profileData = {
       category: 'LoadBalancers',
       topics: ['F5', 'Nginx', 'Azure App Gateway']
     },
-   /* {
+   {
       category: 'Databases',
       topics: ['MYSQL', 'PostgreSQL','Cassandra']
-    } */  
+    }   
   ], 
- /* projects: [
+ projects: [
     {
       title: 'Restaurant Review',
       duration: 'June - Nov 2018',
@@ -79,7 +79,6 @@ const profileData = {
       <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
     }
   ],
-  */ 
   experiences: [
     {
       organization: 'Jio Platforms Ltd',
@@ -90,21 +89,21 @@ const profileData = {
 		`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC architecture.`,
         `Promoted to Manager [JAN 2019-Present], my profile involved in providing effective solutions for network and infrastructure resource requirements while integrating with in house other business applications and also for cloud [Azure and Google Cloud Platform].`,
 		`Project scheduling and tracking with Vendors and different internal support teams.Involved in providing leadership and technical guidance to program management bodies and SME’s.`,
-    //  ]
-	//},
-	//{
-    //  organization: 'Jio Platforms Ltd',
-	//  desc: `Deputy Manager - IT Infrastructure Support`,
-    //  date: 'OCT 2015 - DEC 2018',
-    //  details: [
-    //    `Appointed as a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of //<strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`,
-	//	`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC //architecture.`
+      ]
+	},
+	{
+    organization: 'Jio Platforms Ltd',
+	  desc: `Deputy Manager - IT Infrastructure Support`,
+    date: 'OCT 2015 - DEC 2018',
+    details: [
+    `Appointed as a Deputy Manager - IT Infrastructure, I was involved and responsible for Infrastructure design specifications and implementations for in house project of //<strong>Identity Management</strong>.Successfully implemented Multi Site DR with GSLB (F5 Load balancer).`,
+	`Successfully provided solutions w.r.t implementations and server resources for technology shift from OPENAM and Oracle to OPENSOURCE Nodejs and Cassandra Multi DC //architecture.`
       ]
 	},
     {
       organization: 'IGATE Global Solution Ltd',
       title: `Senior Systems Engineer`,
-     // desc: `Project Engineer`,
+     desc: `Project Engineer`,
       date: 'OCT 2014 - SEPT 2015',
       details: [
         `As a Senior Systems engineer my profile was to work for multiple AIX/Linux projects.`, 
@@ -114,8 +113,8 @@ const profileData = {
     {
       organization: 'eClinicalWorks India Pvt Ltd',
       title: 'Systems Administrator',
-    //  desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
-    //  <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
+    desc: `<strong>Full-Stack Developer intern</strong> at  <a target='_blank' rel='noreferrer' href='https://www.venuemonk.com/'>
+    <strong> Venuemonk </strong> </a> (<a target='_blank' rel='noreferrer' href='https://drive.google.com/open?id=1ch_9x9jCp_TJwKY43FG-pCr_zV9H2iun'> https://goo.gl/Uz1gaf</a>)`,
       date: 'MAY 2013 - SEPT 2014',
       details: [
         `Working as a Systems Administrator, I got experience to manage remote Datacenter operations, Production systems health checks, migration of Datacenters on Hypervisors and in cloud, along with exposure to Firewalls and Network Monitoring and Security aspects`, 
@@ -126,8 +125,8 @@ const profileData = {
     {
       organization: 'MindArray Systems Pvt Ltd',
       title: 'System Administrator',
-    //  desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
-    //  <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
+    desc: `<strong>Product development intern</strong> at <a target='_blank' rel='noreferrer' href='https://hasura.io/'>
+    <strong> Hasura </strong> </a> (<a target='_blank' rel='noreferrer' href='https://goo.gl/8V3jBy'> https://goo.gl/8V3jBy</a>)`,
       date: 'MAY 2011 - FEB 2013',
       details: [
         `Start of career by managing the local area network for this firm, learning all the Network and Servers basics, email clients configurations and set up VMware systems on blade servers, installation and configuration of AIX box for the Network performance software implementation (in house product), along with managing testing and Staging  environment readiness, performance tuning and health reports via various tools`
@@ -147,13 +146,13 @@ const profileData = {
       desc: `<strong>VMware Certified Associate</strong> - <strong>VCA</strong>.`,
      date: 'June 2014',
     },
-    //{
-    //  desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
-    //  and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
-    //   (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
-    //   https://goo.gl/X3HEdR</a>)`,
-    //  date: 'AUG 2011 - AUG 2014'
-    //}
+    {
+     desc: `<strong>Introduction to Modern Application Development</strong>, a MOOC by <em> NPTEL (IIT Madras)
+     and Hasura</em>. Ranked at <strong> top 10 percentile </strong> among more than 2500 candidates.
+      (<a target='_blank' rel='noreferrer' href='https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs06/NPTEL17CS0626270067AN.jpg'>
+      https://goo.gl/X3HEdR</a>)`,
+      date: 'AUG 2011 - AUG 2014'
+    }
   ],
   events: []
 };
