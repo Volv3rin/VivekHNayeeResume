@@ -4,8 +4,7 @@ const setTitle = data => {
   document.title = `${data.title} | ${data.name}`;
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
-  document.querySelector('#profileintro').innerHTML = data.intro;
-  document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+  // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
     .querySelector('#contactEmail')
@@ -77,7 +76,7 @@ const setEducation = education => {
   });
 };
 
-const setProjects = projects => { 
+const setProjects = projects => {
   const ul = document.querySelector('#projectList');
   projects.forEach(project => {
     const li = document.createElement('li');
@@ -118,8 +117,8 @@ const setProjects = projects => {
     li.appendChild(projectDesc);
 
     ul.appendChild(li);
-  }); 
-};  
+  });
+};
 
 const setSkills = skills => {
   const skillList = document.querySelector('#skillList');
@@ -313,7 +312,7 @@ const setCatagoryHeader = title => {
   setTitle(profileData);
   setLinks(profileData.links);
   setExperience(profileData.experiences);
-  //setProjects(profileData.projects);
+  setProjects(profileData.projects);
   setSkills(profileData.skills);
   setEducation(profileData.education);
   setCertification(profileData.certifications);
