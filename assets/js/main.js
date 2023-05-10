@@ -5,7 +5,7 @@ const setTitle = data => {
   document.querySelector('#profileName').innerHTML = data.name;
   document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
   document.querySelector('#profileintro').innerHTML = data.intro;
-  //document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+  document.querySelector('#aboutIntro').innerHTML = data.about.intro;
   document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
   document
     .querySelector('#contactEmail')
