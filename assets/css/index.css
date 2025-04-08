@@ -1,14 +1,16 @@
+
 body,
 html {
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 100%;
-  color: #222;
+  color: #000;
 }
 
 * {
   box-sizing: border-box;
+  /* border: dashed 1px red; */
 }
 
 /* Links */
@@ -24,7 +26,6 @@ strong {
 .container {
   padding: 10px 15px;
   margin: 0 auto;
-  /* width: 55rem; */
   max-width: 55rem;
   background-color: #fff;
 }
@@ -36,7 +37,11 @@ strong {
 
 .header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-logo {
@@ -47,7 +52,7 @@ strong {
 
 .header-title {
   font-size: 2.4rem;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -60,14 +65,15 @@ strong {
 }
 
 .contact-section {
-  padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   color: #3173bb;
-  padding: 0.4rem 0;
+  padding: 0.4rem 0.6rem;
 }
 
 .contact-logo {
@@ -75,11 +81,10 @@ strong {
 }
 
 .contact-info {
-  padding-left: 1rem;
+  padding-left: 0.4rem;
 }
 
 .info-section {
-  padding: 1rem 0 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -110,13 +115,15 @@ strong {
 
 .cat-indicator {
   color: #3173bb;
+  width: 1.6rem;
+  text-align: center;
 }
 
 .cat-title {
   text-transform: uppercase;
   letter-spacing: 3px;
   vertical-align: text-bottom;
-  padding-left: 1rem;
+  margin-left: 0.4rem;
   color: #666;
 }
 
@@ -129,15 +136,17 @@ strong {
 .cat-list-body {
   padding-bottom: 1rem;
 }
-.cat-list-body ul {
-  padding-left: 18px;
+.cat-list {
+  padding-left: 2rem;
   margin: 0;
-  list-style-type: circle;
+  list-style-type: disc;
+  text-align: justify;
 }
 
-.cat-list-body li {
+.cat-list-item {
   padding: 0.4rem 0;
   padding-left: 0.6rem;
+  text-align: justify;
 }
 
 /* Education */
@@ -162,7 +171,6 @@ strong {
 }
 
 .edu-class-data {
-  /* clear: right; */
   margin-top: 5px;
 }
 
@@ -185,25 +193,22 @@ strong {
 }
 
 .project-desc {
-  /* margin-top: 8px; */
   color: #444;
-  padding: 4px 0 4px 16px;
-  border-left: 2px solid beige;
+  text-align: justify;
+  padding-bottom: 0.4rem;
 }
 
 /* Skills */
 .cat-skill-item {
   padding: 0.2rem 0 !important;
-  padding-left: 0.6rem !important;
+  line-height: 1.2rem;
 }
 
 .cat-skill-type {
-  /* width: 100%; */
-  /* min-width: 13.5rem; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
-  letter-spacing: 1px;
-  padding: 5px 0;
+  /* letter-spacing: 1px; */
+  /* padding: 5px 0; */
 }
 
 .force-inline {
@@ -213,13 +218,7 @@ strong {
 .cat-skill-body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 0 5px 40px;
-}
-
-.cat-skill-body-gen {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 5px 0px;
 }
 
 .skill {
@@ -235,8 +234,6 @@ strong {
   background-color: #3173bb;
   color: #fff;
   border-radius: 3rem;
-
-  /* font-weight: 600; */
   font-size: 0.9rem;
 }
 
@@ -262,6 +259,11 @@ strong {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.exp-item {
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .exp-org {
@@ -290,12 +292,13 @@ strong {
   list-style-type: disc !important;
   color: #444;
   padding: 4px 0 4px 16px;
-  /* font-style: italic; */
 }
 
 .expDet > li {
-  padding: 0.3rem 0 !important;
+  padding-bottom: 0.4rem !important;
   padding-left: 0.3rem !important;
+  text-align: justify;
+  list-style: circle;
 }
 
 /* Media wuery for mobile view */
@@ -305,8 +308,6 @@ strong {
   }
 
   .header-title {
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     text-align: center;
   }
 
@@ -315,7 +316,6 @@ strong {
   }
 
   .header-sub-title {
-    /* justify-content: center; */
     text-align: center;
   }
 
@@ -358,9 +358,12 @@ strong {
     margin-left: 0;
   }
 
+  .contact-section {
+    justify-content: center;
+  }
+
   .contact-item {
-    /* width: 100%; */
-    display: block;
+    display: inline-flex;
     cursor: pointer;
   }
 
@@ -382,7 +385,6 @@ strong {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
   }
 
   .project-link a {
